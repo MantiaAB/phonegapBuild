@@ -109,7 +109,7 @@
         <splash src="resources/ios/splash/Default~iphone.png" width="320" height="480"/>
     </platform>
 
-    <gap:plugin name="cordova-plugin-camera" source="npm" />
+    <gap:plugin name="cordova-plugin-camera" source="npm" version="2.3.0" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" />
     <gap:plugin name="cordova-plugin-device" source="npm" />
     <gap:plugin name="cordova-plugin-file" source="npm" />
