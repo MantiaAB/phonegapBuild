@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "Mantia"
-        versionCode = "1.0"
-        version   = "3.4.0">
-    <name>Mantia</name>
+        id        = "net.moodle.learn"
+        versionCode = "3"
+        version   = "1.0">
+    <name>app</name>
 
     <description>
-        Mantia
+        app
     </description>
 
-    <author href="http://www.mantia.es" email="campus.virtual@mantia.es">
-        Mantia
+    <author href="http://moodle.com" email="mobile@moodle.com">
+        mantia
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -134,7 +134,7 @@
     <gap:plugin name="cordova-plugin-zip" source="npm" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="false" />
+         <application android:debuggable="true" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
@@ -532,13 +532,5 @@
             <key>NSAllowsArbitraryLoads</key><true/>
         </dict>
     </gap:config-file>
-	
-	<gap:plugin name="net.tunts.webintent"
-	spec="https://github.com/Tunts/WebIntent.git" source="git" />
-	
-	<gap:plugin name="ch.ti8m.documenthandler"
-	spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
-	
-	
 
 </widget>
